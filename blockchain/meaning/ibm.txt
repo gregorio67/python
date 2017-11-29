@@ -1,0 +1,79 @@
+Blockchain basics: Introduction to distributed ledgers
+Everyone is placing bets on how blockchain will revolutionize the way organizations, such as companies and universities, conduct business transactions. Let's look at how a blockchain network operates, how you can take advantage of it, and how IBM is helping to advance the technology. First, a little background is in order.
+What is a distributed ledger?
+A distributed ledger is a type of database that is shared, replicated, and synchronized among the members of a network. The distributed ledger records the transactions, such as the exchange of assets or data, among the participants in the network.
+Participants in the network govern and agree by consensus on the updates to the records in the ledger. No central, third-party mediator, such as a financial institution or clearinghouse, is involved.
+Every record in the distributed ledger has a timestamp and unique crytographic signature, thus making the ledger an auditable history of all transactions in the network. One implementation of distributed ledger technology is the open source Hyperledger Fabric blockchain.
+The role of business ledgers
+In today's connected and integrated world, economic activity takes place in business networks that span national, geographic, and jurisdictional boundaries. Business networks typically come together at marketplaces where the participants, such as producers, consumers, suppliers, partners, market makers/enablers, and other stakeholders own, control, and exercise their rights, privileges, and entitlements on objects of value known as assets.
+Assets can be tangible and physical, such as cars, homes, or strawberries, or intangible and virtual, such as deeds, patents, and stock certificates. Asset ownership and transfers are the transactions that create value in a business network.
+Transactions typically involve various participants like buyers, sellers, and intermediaries (such as banks, auditors, or notaries) whose business agreements and contracts are recorded in ledgers. A business typically uses multiple ledgers to keep track of asset ownership and asset transfers between participants in its various lines of businesses. Ledgers are the systems of record (SORs) for a business's economic activities and interests.
+A typical ledger looks something like this:
+
+Problems with current business ledgers
+Current business ledgers in use today are deficient in many ways. They are inefficient, costly, non-transparent, and subject to fraud and misuse. These problems stem from reliance on centralized, trust-based, third-party systems, such as financial institutions, clearinghouses, and other mediators of existing institutional arrangements.
+These centralized, trust-based ledger systems lead to bottlenecks and slowdowns of transaction settlements. Lack of transparency, as well as susceptibility to corruption and fraud, lead to disputes. Having to resolve disputes and possibly reverse transactions or provide insurance for transactions is costly. These risks and uncertainties contribute to missed business opportunities.
+Furthermore, out-of-sync copies of business ledgers on each network participant’s own systems lead to faulty business decisions made on temporary, incorrect data. At best, the ability to make a fully informed decision is delayed while differing copies of the ledgers are resolved.
+What is blockchain, exactly?
+Now, could you explain "blockchain" to someone?
+If you hesitated, you're not alone! Our Blockchain primer really breaks it down. Read it and you'll be ready to regale your family, neighbors, and co-workers with your new-found fluency!
+A blockchain is a tamper-evident, shared digital ledger that records transactions in a public or private peer-to-peer network. Distributed to all member nodes in the network, the ledger permanently records, in a sequential chain of cryptographic hash-linked blocks, the history of asset exchanges that take place between the peers in the network.
+All the confirmed and validated transaction blocks are linked and chained from the beginning of the chain to the most current block, hence the name blockchain. The blockchain thus acts as a single source of truth, and members in a blockchain network can view only those transactions that are relevant to them.
+How does a blockchain network work?
+Test your blockchain knowledge!
+Take the Blockchain essentials course for developers, and you'll learn the ins and outs of asset transfers. At the end of the free, self-paced course, take a quiz, get a badge, and start planning useful blockchain applications for your business network.
+Instead of relying on a third party, such as a financial institution, to mediate transactions, member nodes in a blockchain network use a consensus protocol to agree on ledger content, and cryptographic hashes and digital signatures to ensure the integrity of transactions.
+Consensus ensures that the shared ledgers are exact copies, and lowers the risk of fraudulent transactions, because tampering would have to occur across many places at exactly the same time. Cryptographic hashes, such as the SHA256 computational algorithm, ensure that any alteration to transaction input — even the most minuscule change — results in a different hash value being computed, which indicates potentially compromised transaction input. Digital signatures ensure that transactions originated from senders (signed with private keys) and not imposters.
+The decentralized peer-to-peer blockchain network prevents any single participant or group of participants from controlling the underlying infrastructure or undermining the entire system. Participants in the network are all equal, adhering to the same protocols. They can be individuals, state actors, organizations, or a combination of all these types of participants.
+At its core, the system records the chronological order of transactions with all nodes agreeing to the validity of transactions using the chosen consensus model. The result is transactions that are irreversible and agreed to by all members in the network.
+What are the business benefits of blockchain?
+In legacy business networks, all participants maintain their own ledgers with duplication and discrepancies that result in disputes, increased settlement times, and the need for intermediaries with their associated overhead costs. However, by using blockchain-based shared ledgers, where transactions cannot be altered once validated by consensus and written to the ledger, businesses can save time and costs while reducing risks.
+Blockchain consensus mechanisms provide the benefits of a consolidated, consistent dataset with reduced errors, near-real-time reference data, and the flexibility for participants to change the descriptions of the assets they own.
+Because no one participating member owns the source of origin for information contained in the shared ledger, blockchain technologies lead to increased trust and integrity in the flow of transaction information among the participating members.
+Immutability mechanisms of blockchain technologies lead to lowered cost of audit and regulatory compliance with improved transparency. And because contracts being executed on business networks using blockchain technologies are smart, automated, and final, businesses benefit from increased speed of execution, reduced costs, and less risk, all of which enables businesses to build new revenue streams to interact with clients.
+What's a good blockchain use case?
+Is blockchain is right for you?
+What makes a good blockchain solution? (02:32)
+To determine whether your use case is a good fit for blockchain, ask yourself these questions:
+Is a business network involved?
+Is consensus used to validate transactions?
+Is an audit trail, or provenance, required?
+Must the record of transactions be immutable, or tamper proof?
+Should dispute resolution be final?
+If you answered yes to the first question and to at least one other, then your use case would benefit from blockchain technology. A network always needs to be involved for blockchain to be the right solution, but the network can take many forms. The network can be between organizations, such as a supply chain, or the network can be within an organization. Within an organization, a blockchain network could be used to share reference data between divisions or to create an audit or compliance network, for example. The network can also exist between individuals, who might need to store data, digital assets, or contracts on the blockchain, for example.
+See industry examples of how diverse organizations — in financial services, government, transportation, and insurance, for example — are adopting blockchain to support new business models.
+What is Hyperledger?
+How to develop your first Hyperleder Fabric blockchain app, fast!
+Choose your preferred development environment: online, local, or in the cloud!
+Start with online samples. Develop and test locally in a complete dev environment. Share your blockchain app for collaborative development on the IBM Cloud.
+Develop your blockchain app
+Hyperledger is an open source collaborative effort to advance cross-industry blockchain technologies. It's a global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, Internet of Things, supply chain, manufacturing, and technology. These 130+ members and 8 ongoing projects, including Hyperledger Fabric and Hyperledger Composer, work in concert to create an open, standardized, and enterprise-grade distributed ledger framework and code base.
+Hyperledger Fabric is a blockchain framework implementation and one of the open source Hyperledger projects hosted by The Linux Foundation. Its modular architecture allows components, such as consensus and membership services, to be plug-and-play, and ensures the confidentiality, resiliency, flexibility, and scalability of blockchain solutions for business.
+Another Hyperledger project hosted by The Linux Foundation is Hyperledger Composer. It's a set of free, open source tools for quickly prototyping, defining, and testing a blockchain network and writing applications to interact with it.
+Enterprise blockchain requirements
+IBM's perspective on blockchain technology
+IBM's point of view on blockchain technology (09:03)
+We believe that blockchain is a truly disruptive technology that can transform business networks. We also believe that this innovation has to happen in the open, collaborating with other technology companies and industries. To this end, IBM continues to contribute code to the Hyperledger Project.
+From IBM's perspective, industrial-grade blockchain technologies have the following characteristics:
+A shared, permissioned ledger is the append-only system of record (SOR) and single source of truth. It is visible to all participating members of the business network.
+A consensus protocol agreed to by all participating members of the business network ensures that the ledger is updated only with network-verified transactions.
+Cryptography ensures tamper-proof security, authentication, and integrity of transactions.
+Smart contracts encapsulate participant terms of agreements for the business that takes place on the network; they are stored on the validating nodes in the blockchain and triggered by transactions.
+In addition to these attributes, enterprise blockchain technology needs to meet key industry requirements such as performance, verified identifies, and private and confidential transactions. Hyperledger Fabric has been architected to meet these needs. It is also designed with a pluggable consensus model, allowing businesses to select an optimal algorithm for their networks.
+How do I get started?
+Ready to start developing your own blockchain solutions?
+For the fastest start to developing your first blockchain application, head over to the IBM Blockchain Platform page for developers.
+When you're ready to dig deeper into deploying blockchain network solutions, examine all your options in IBM Blockchain 101: Quick-start guide for developers.
+IBM is the leader in secure open-source blockchain solutions built for the enterprise. As an early member of the Linux Foundation's Hyperledger Project, IBM is dedicated to supporting the development of openly governed blockchains. IBM has worked with over 400 clients across financial services, supply chains, IoT, risk management, digital rights management, and healthcare to implement blockchain applications delivered via the IBM Cloud.
+IBM offers flexible platforms and secure infrastructure to help you design, deploy, and manage your blockchain networks. Learn about IBM Blockchain solutions, and see how you can start using blockchain in your business today.
+Conclusion
+Blockchain technologies represent a fundamentally new way to transact business. They usher in a robust and smart next generation of applications for the registry and exchange of physical, virtual, tangible, and intangible assets. Thanks to the key concepts of cryptographic security, decentralized consensus, and a shared public ledger (with its properly controlled and permissioned visibility), blockchain technologies can profoundly change the way we organize our economic, social, political, and scientific activities.
+ 
+Next steps
+We'll conclude this introduction to distributed ledgers with four great ways to continue your blockchain odyssey:
+Stay in know with the Blockchain Newsletter from developerWorks. Check out the current issue and subscribe.
+Stop by the Blockchain Developer Center on developerWorks. It's your source for free tools and tutorials, along with code and community support, for developing and deploying blockchain solutions for business.
+Take the Blockchain essentials course for developers to learn the ins and outs of asset transfers. At the end of the free, self-paced course, take a quiz, get a badge, and start planning useful blockchain applications for your business network.
+Deploy a blockchain network and start coding — just follow the steps in IBM Blockchain 101: Quick-start guide for developers. Happy blockchaining!
+Acknowledgments
+The authors are grateful for contributions from Nitin Gaur, Joshua Horton, and Nikhil Gupta, who reviewed the content and provided constructive suggestions. Additionally, they thank Scott Sloan, Sujatha Perepa, and the rest of the IBM Technical Sales Leadership Council (TSLC) team for connecting as one unified IBM Blockchain team.
